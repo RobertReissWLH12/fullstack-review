@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
-export default class Add extends Component {
+
+export default class Login extends Component {
   state = {
-    title: '',
-    imgUrl: '',
-    content: ''
+    email: '',
+    password: ''
   }
   render() {
     return (
       <div>
-        Add.js
+        Login.js
       </div>
     )
   }
