@@ -1,9 +1,10 @@
 import React from 'react'
+import logo from '../assets/Instamilligram.svg'
 
 const Header = () => {
   return (
     <div>
-      Header
+      <img src={logo} />
     </div>
   )
 }
